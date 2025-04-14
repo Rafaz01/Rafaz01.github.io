@@ -110,6 +110,16 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  hostinger: {
+    name: "Hostinger",
+    iconName: "hostinger",
+  },
+  elementor: {
+    name: "Elementor",
+    iconName: "elementor",
+  },
+  
+  
 };
 
 export const getLanguage = (lang: string): Language => {
