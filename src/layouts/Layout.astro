@@ -4,21 +4,21 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 import  SpeedInsights  from "@vercel/speed-insights/astro"
 const {
-  pageTitle = "EFEELE | Programmer and Web Developer 🚀",
-  description = "Welcome to EFEELE's website, where I develop software and share knowledge.",
+  pageTitle = "Rafael Gomez | Web Developer",
+  description = "Welcome to Rafael Gomez's website, where I develop software and share knowledge.",
   ogimage = {
     url: "/images/imagedefault.webp",
-    alt: "Default image of EFEELE",
+    alt: "Default image of Rafael Gomez | Web Developer",
   },
 } = Astro.props;
 
 const siteUrl = new URL(Astro.url).origin;
 const SEO = {
-  sitename: "EFEELE | Programmer and Web Developer 🚀",
+  sitename: "Rafael Gomez | Web Developer",
   url: siteUrl,
   locale: "en_US",
-  author: "Fernando Lopez | EFEELE",
-  twitter: "@efeeledev",
+  author: "Rafael Gomez",
+  
 };
 
 
@@ -63,7 +63,6 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={twitterimage} />
     <meta name="twitter:image:alt" content={ogimage.alt} />
-    <meta name="twitter:site" content={SEO.twitter} />
   
     <meta name="theme-color" content="#0E0E11"/>
     
