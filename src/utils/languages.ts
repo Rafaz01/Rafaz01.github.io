@@ -108,17 +108,22 @@ export const languages: Record<string, Language> = {
   },
   python: {
     name: "Python",
+    className: "!bg-[#f6ece1]",
     iconName: "python",
   },
-  hostinger: {
-    name: "Hostinger",
-    iconName: "hostinger",
+  react: {
+    name: "React",
+    iconName: "react",
   },
   elementor: {
     name: "Elementor",
     iconName: "elementor",
   },
-  
+  hostinger: {
+    name: "Hostinger",
+    className: "!bg-[#f6ece1]",
+    iconName: "rocket",
+  },
   
 };
 
