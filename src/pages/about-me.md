@@ -4,7 +4,7 @@ title: "Rafael Gomez | My Journey in Technology and Web Development 🚀"
 description: "FrontEnd Developer with a customer-focused background and a passion for building clean, responsive websites."
 author: "Rafael Gomez"
 image:
-  url: "/images/profilepic.webp"
+  url: "/images/profilepic.jpg"
   alt: "Photo of Rafael Gomez"
 ---
 
