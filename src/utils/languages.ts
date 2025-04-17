@@ -108,7 +108,6 @@ export const languages: Record<string, Language> = {
   },
   python: {
     name: "Python",
-    className: "!bg-[#f6ece1]",
     iconName: "python",
   },
   react: {
@@ -122,7 +121,7 @@ export const languages: Record<string, Language> = {
   hostinger: {
     name: "Hostinger",
     className: "!bg-[#f6ece1]",
-    iconName: "rocket",
+    iconName: "hostinger",
   },
   
 };
