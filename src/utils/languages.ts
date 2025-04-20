@@ -123,6 +123,10 @@ export const languages: Record<string, Language> = {
     className: "!bg-[#f6ece1]",
     iconName: "hostinger",
   },
+  json: {
+    name: "JSON",
+    iconName: "json",
+  },
   
 };
 

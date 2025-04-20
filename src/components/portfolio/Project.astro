@@ -2,6 +2,7 @@
 const { title, url, image, languages, description, size = "xs" } = Astro.props;
 
 import Capsule from "../ui/Capsule.astro";
+
 ---
 
 <a href={url} class="w-full h-full hover:scale-105 transition-all duration-300 ease-in-out rounded-3xl bg-gradient-to-br from-mint-50/50 to-mint-300/10 dark:from-zinc-800 dark:to-mint-800/10">
@@ -30,3 +31,4 @@ import Capsule from "../ui/Capsule.astro";
     </div>
   </article>
 </a>
+
