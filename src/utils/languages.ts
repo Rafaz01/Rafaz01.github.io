@@ -127,7 +127,11 @@ export const languages: Record<string, Language> = {
     name: "JSON",
     iconName: "json",
   },
-  
+  seo:
+  {
+    name: "SEO",
+    iconName: "code",
+  }
 };
 
 export const getLanguage = (lang: string): Language => {
