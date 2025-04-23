@@ -1,6 +1,6 @@
 ---
 layout:  /src/layouts/ProjectLayout.astro
-title: 'G & U All Services Solutions'
+title: 'G & U All Services'
 pubDate: 2024-08-20
 description: "Business website built with WordPress and Elementor for a multiservice company offering security camera installation and Wi-Fi setup in South Florida."
 languages: ["wordpress", "elementor", "HTML", "css", "seo"]
