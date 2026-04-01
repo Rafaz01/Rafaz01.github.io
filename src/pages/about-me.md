@@ -1,24 +1,36 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
-title: "Rafael Gomez | My Journey in Technology and Web Development 🚀"
-description: "FrontEnd Developer with a customer-focused background and a passion for building clean, responsive websites."
+title: "Rafael Gomez | Frontend Developer"
+description: "Frontend Developer based in Florida with real client experience, a passion for clean UI, and a background in people-facing roles."
 author: "Rafael Gomez"
 image:
   url: "/images/profilepic.jpg"
   alt: "Photo of Rafael Gomez"
 ---
 
-<!-- Under Construction -->
+# About **me**
 
-## 🚧 This page is under construction
+Hey, I'm Rafael — a Frontend Developer based in Florida with a background in sales and customer service that taught me how to listen to clients, communicate clearly, and deliver results.
 
-Hi! 👋 I’m **Rafael Gomez**, a Frontend Developer with a background in customer-facing roles and a passion for web development.
+I got into web development because I love building things that people actually use. Since 2023 I've been running **JG Graphic LLC** with my brother, where I handle all the web development and SEO while he leads the graphic design. We've built websites for real businesses across Florida — from cleaning companies to multi-service contractors.
 
-Right now, I’m working on building a more complete version of my story and portfolio for this page.
+My go-to stack is **HTML, CSS, JavaScript, and WordPress**, and I'm currently expanding into **React** and modern frontend tooling. I care a lot about clean code, good UX, and sites that load fast and rank well.
 
-While this is in progress, feel free to check out:
-- My [GitHub](https://github.com/Rafaz01)
-- My [LinkedIn](https://www.linkedin.com/in/rafael-gomez-uban-49b99b231/)
-- Or contact me via [email](mailto:rgomezh02@gmail.com)
+Outside of code I'm into soccer, music, movies, and finding the next great travel destination ✈️.
 
-Thanks for stopping by — more updates coming soon! 🚀
+---
+
+## What I bring to a team
+
+- Real client experience — I've managed projects from first call to launch
+- Bilingual (English & Spanish) — useful in Florida's market
+- SEO knowledge built into every project from the start
+- A sales background that makes me better at understanding what users actually need
+
+---
+
+## Let's connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/rafael-gomez-uban-49b99b231/)
+- 🐙 [GitHub](https://github.com/Rafaz01)
+- 📧 [rgomezh02@gmail.com](mailto:rgomezh02@gmail.com)
