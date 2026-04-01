@@ -60,11 +60,10 @@ const { frontmatter } = Astro.props;
             <div class="text-center">
               <Heading textGradient="Rafael Gomez" />
             </div>
-
-            <p
-              class="text-lg max-xl:text-base text-blacktext dark:text-gray-200 mb-0 leading-8 font-semibold"
-            > with a customer-focused background and a passion for building clean, responsive websites. I blend my experience in people-facing roles with skills in WordPress, HTML, CSS, JavaScript, Python, and SEO to bring ideas to life. Driven by creativity and a love for tech
-            </p>
+               <p
+                 class="text-lg max-xl:text-base text-blacktext dark:text-gray-200 mb-0 leading-8 font-semibold"
+               > {frontmatter.description}
+              </p>       
           </div>
         </div>
       </div>

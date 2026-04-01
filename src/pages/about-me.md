@@ -1,22 +1,21 @@
 ---
 layout: /src/layouts/MarkdownAbout.astro
 title: "Rafael Gomez | Frontend Developer"
-description: "Frontend Developer based in Florida with real client experience, a passion for clean UI, and a background in people-facing roles."
+description: "Front-end Developer based in Florida with real client experience, a passion for clean UI, and a background in people-facing roles."
 author: "Rafael Gomez"
 image:
   url: "/images/profilepic.jpg"
   alt: "Photo of Rafael Gomez"
 ---
 
-# About **me**
 
-Hey, I'm Rafael — a Frontend Developer based in Florida with a background in sales and customer service that taught me how to listen to clients, communicate clearly, and deliver results.
+Hey, I'm Rafael, a Front-end Developer based in Florida with a background in sales and customer service that taught me how to listen to clients, communicate clearly, and deliver results.
 
 I got into web development because I love building things that people actually use. Since 2023 I've been running **JG Graphic LLC** with my brother, where I handle all the web development and SEO while he leads the graphic design. We've built websites for real businesses across Florida — from cleaning companies to multi-service contractors.
 
 My go-to stack is **HTML, CSS, JavaScript, and WordPress**, and I'm currently expanding into **React** and modern frontend tooling. I care a lot about clean code, good UX, and sites that load fast and rank well.
 
-Outside of code I'm into soccer, music, movies, and finding the next great travel destination ✈️.
+Outside of code I'm into soccer, music, movies, and finding the next great travel destination.
 
 ---
 
