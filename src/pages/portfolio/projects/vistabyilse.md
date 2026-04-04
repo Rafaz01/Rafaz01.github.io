@@ -3,7 +3,7 @@ layout: /src/layouts/ProjectLayout.astro
 title: 'Vista by Ilse'
 pubDate: 2025-08-01
 description: "WordPress travel blog for a lifestyle and travel content creator. Built with a clean, editorial aesthetic featuring bilingual support, travel guides, and brand partnerships."
-languages: ["Wordpress", "Elementor", "CSS", "SEO"]
+languages: ["wordpress", "elementor", "css", "seo"]
 url: "/portfolio/projects/vistabyilse"
 image:
   url: "/images/projects/vistabyilse.png"

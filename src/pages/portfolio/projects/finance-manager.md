@@ -2,7 +2,7 @@
 layout:  /src/layouts/ProjectLayout.astro
 title: 'Finance Manager'
 pubDate: 2024-04-30
-description: "A dynamic finance dashboard built with JavaScript, JSON, and AJAX. It fetches and displays financial data in real-time using public APIs."
+description: "Personal finance dashboard built entirely with vanilla JavaScript — no frameworks, no libraries. It started as a college project and evolved into a fully redesigned app with a clean dark UI, live market data, and persistent storage."
 languages: ["HTML", "css", "javascript"]
 image:
   url: "/images/projects/financetacker01.png"
