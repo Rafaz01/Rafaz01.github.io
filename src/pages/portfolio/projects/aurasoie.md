@@ -3,7 +3,7 @@ layout: /src/layouts/ProjectLayout.astro
 title: 'AuraSoie'
 pubDate: 2024-12-01
 description: "Shopify store redesign for a premium haircare brand. Translated and customized a Liquid theme to deliver a clean, conversion-focused shopping experience in English."
-languages: ["Shopify", "Liquid", "css", "HTML"]
+languages: ["shopify", "liquid", "css", "HTML"]
 image:
   url: "/images/projects/aurasoie.png"
   alt: "AuraSoie Shopify Store Screenshot"

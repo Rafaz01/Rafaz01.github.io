@@ -132,7 +132,7 @@ export const languages: Record<string, Language> = {
   liquid:
   {
     name: "Liquid",
-    iconName: "code",
+    iconName: "shopify",
   },
  shopify:
   {
