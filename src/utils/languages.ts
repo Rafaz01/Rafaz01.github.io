@@ -118,11 +118,7 @@ export const languages: Record<string, Language> = {
     name: "Elementor",
     iconName: "elementor",
   },
-  hostinger: {
-    name: "Hostinger",
-    className: "!bg-[#f6ece1]",
-    iconName: "hostinger",
-  },
+  
   json: {
     name: "JSON",
     iconName: "json",
@@ -131,7 +127,18 @@ export const languages: Record<string, Language> = {
   {
     name: "SEO",
     iconName: "code",
-  }
+  },
+  
+  liquid:
+  {
+    name: "Liquid",
+    iconName: "code",
+  },
+ shopify:
+  {
+    name: "Shopify",
+    iconName: "shopify",
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
