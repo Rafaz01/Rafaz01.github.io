@@ -27,7 +27,6 @@ Check out the full site 👉 [rafaz01.github.io](https://rafaz01.github.io/)
 Feel free to explore the [Projects](https://rafaz01.github.io/projects) section and reach out if you'd like to collaborate!
 
 📬 Contact: **[rgomezh02@gmail.com](mailto:rgomezh02@gmail.com)**  
-🌐 Website of interes: [jg-graphic.com](https://jg-graphic.com)  
 
 ## 📄 License
 
