@@ -40,4 +40,4 @@ This project pushed me to work with a **highly specific brand identity** — the
 
 ## 🌐 Live Site
 
-👉 [Visit 8th Element Podcast](https://8thelements.jg-graphic.com)
+👉 [Visit 8th Element Podcast](https://8thelementpodcast.com/)
