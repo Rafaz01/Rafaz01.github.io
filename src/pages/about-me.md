@@ -32,4 +32,4 @@ Outside of code I'm into soccer, music, movies, and finding the next great trave
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/rafael-gomez-uban-49b99b231/)
 - 🐙 [GitHub](https://github.com/Rafaz01)
-- 📧 [rgomezh02@gmail.com](mailto:rgomezh02@gmail.com)
+- 📧 [contact@rafaelgomez.dev](mailto:contact@rafaelgomez.dev)
