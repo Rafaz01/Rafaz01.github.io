@@ -5,7 +5,7 @@ pubDate: 2024-08-20
 description: "Business website built with WordPress and Elementor for a multiservice company offering security camera installation and Wi-Fi setup in South Florida."
 languages: [ "HTML", "css", "javascript"]
 image:
-  url: "/images/projects/guallservies.png"
+  url: "/images/projects/guall.png"
   alt: "G & U All Services Website Screenshot"
 ---
 

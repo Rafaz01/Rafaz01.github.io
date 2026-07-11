@@ -5,7 +5,7 @@ pubDate: 2024-12-01
 description: "Shopify store redesign for a premium haircare brand. Translated and customized a Liquid theme to deliver a clean, conversion-focused shopping experience in English."
 languages: ["shopify", "liquid", "css", "HTML"]
 image:
-  url: "/images/projects/aurasoie.png"
+  url: "/images/projects/aurasoie2.png"
   alt: "AuraSoie Shopify Store Screenshot"
 ---
 

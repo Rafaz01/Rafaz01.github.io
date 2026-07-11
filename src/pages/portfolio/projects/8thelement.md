@@ -4,9 +4,9 @@ title: '8th Element Podcast'
 pubDate: 2026-02-01
 description: "WordPress website for a geopolitics and Vedic wisdom podcast. Built with Blocksy and Elementor featuring a cosmic aesthetic, YouTube episode integration, and WooCommerce store."
 languages: ["wordpress", "elementor", "css", "seo"]
-url: "/portfolio/projects/8thelement"
+url: "/portfolio/projects/cover2.png"
 image:
-  url: "/images/projects/8thelement.png"
+  url: "/images/projects/cover2.png"
   alt: "8th Element Podcast Website Screenshot"
 ---
 
