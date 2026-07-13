@@ -20,7 +20,7 @@ Junior Frontend Developer with 2+ years of freelance experience building respons
 | BonitaFind | Service website | WordPress, Elementor |
 | 8th Element Podcast | Podcast website | WordPress, Blocksy |
 | Vista by Ilse | Travel blog | WordPress, Elementor |
-| JR Cleaning Services | Business website | WordPress, Elementor |
+
 
 ## Tech Stack
 
