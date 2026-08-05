@@ -34,7 +34,7 @@ HTML5 · CSS3 · JavaScript · WordPress · Elementor · Shopify · Liquid · Ta
 
 ## Contact
 
-- Email: [rgomezh02@gmail.com](mailto:rgomezh02@gmail.com)
+- Email: [contact@rafaelgomez.dev](mailto:contact@rafaelgomez.dev)
 - LinkedIn: [rafael-gomez-uban](https://www.linkedin.com/in/rafael-gomez-uban-49b99b231/)
 - Portfolio: [rafaelgomez.dev](https://rafaelgomez.dev)
 
