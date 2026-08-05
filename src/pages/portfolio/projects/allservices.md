@@ -5,8 +5,10 @@ pubDate: 2024-08-20
 description: "Business website built with WordPress and Elementor for a multiservice company offering security camera installation and Wi-Fi setup in South Florida."
 languages: [ "HTML", "css", "javascript"]
 image:
-  url: "/images/projects/guall.png"
+  url: "/images/optimized/projects/guall.webp"
   alt: "G & U All Services Website Screenshot"
+  width: 900
+  height: 452
 ---
 
 **G & U All Services Solutions** is a South Florida company specializing in security camera installation, Wi-Fi networks, structured cabling, and tech infrastructure for residential and commercial clients.

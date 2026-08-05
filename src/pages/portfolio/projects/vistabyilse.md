@@ -6,8 +6,10 @@ description: "WordPress travel blog for a lifestyle and travel content creator. 
 languages: ["wordpress", "elementor", "css", "seo"]
 url: "/portfolio/projects/vistabyilse"
 image:
-  url: "/images/projects/vistabyilse.png"
+  url: "/images/optimized/projects/vistabyilse.webp"
   alt: "Vista by Ilse Travel Blog Screenshot"
+  width: 900
+  height: 365
 ---
 
 **Vista by Ilse** is a travel blog and lifestyle brand created by Ilse Martinez — a storyteller and traveler who documents her adventures across Europe and beyond. The site features travel guides, curated itineraries, a blog, and brand partnership opportunities.

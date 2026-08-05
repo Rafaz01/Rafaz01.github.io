@@ -5,8 +5,10 @@ pubDate: 2024-04-30
 description: "Personal finance dashboard built entirely with vanilla JavaScript — no frameworks, no libraries. It started as a college project and evolved into a fully redesigned app with a clean dark UI, live market data, and persistent storage."
 languages: ["HTML", "css", "javascript"]
 image:
-  url: "/images/projects/financetacker01.png"
+  url: "/images/optimized/projects/financetacker01.webp"
   alt: "Finance Dashboard Screenshot"
+  width: 900
+  height: 426
 --- 
 
 **Budget Tracker** is a personal finance dashboard built entirely with vanilla JavaScript — no frameworks, no libraries. It started as a college project and evolved into a fully redesigned app with a clean dark UI, live market data, and persistent storage.

@@ -5,8 +5,10 @@ pubDate: 2026-07-11
 description: "Custom sales landing page built with HTML, CSS, and JavaScript for a pastry masterclass, with Stripe checkout and an automated MailerLite email sent to every buyer after purchase."
 languages: ["HTML", "css", "javascript"]
 image:
-  url: "/images/projects/deliciasysabores.png"
+  url: "/images/optimized/projects/deliciasysabores.webp"
   alt: "Delicias & Sabores Landing Page Screenshot"
+  width: 900
+  height: 454
 ---
 
 **Delicias & Sabores** is a pastry-focused sales page built to sell a paid video masterclass to a creator's social media audience across Instagram, TikTok, and Facebook. The goal was a fast, single-page experience that guides visitors from the hook straight through to checkout.

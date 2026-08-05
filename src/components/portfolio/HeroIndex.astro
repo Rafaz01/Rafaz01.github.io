@@ -7,13 +7,13 @@ import Hobbies from "../portfolio/Hobbies.astro";
 
 
 const  {
-  profileImage = "/images/rafasprofile6.png",
+  profileImage = "/images/optimized/rafasprofile6.webp",
   profileAlt = "Photo of",
   profileLink = "/about-me",
   profileTitle = "Junior Frontend Developer",
   profileName = "Rafael Gomez",
-  portfolioImage = "/images/portfolio.png",
-  email = "rgomezh02@gmail.com",
+  portfolioImage = "/images/optimized/portfolio.webp",
+  email = "contact@rafaelgomez.dev",
 } = Astro.props;;
 ---
 
@@ -100,7 +100,7 @@ const  {
       class="col-start-2 row-start-2 flex flex-col gap-3 rounded-2xl border border-emerald-50 bg-gradient-to-r from-riptide-200 to-mint-200 p-8 dark:border-zinc-800 dark:border-2 dark:bg-zinc-800 dark:bg-gradient-radial dark:from-riptide-500 dark:to-mint-500 max-md:gap-0 max-xl:p-5 max-md:p-4 max-lg:gap-1 md:col-start-4"
     >
       <div class="flex flex-col-reverse items-start gap-4 max-md:gap-2">
-        <Heading text="Beyond the Code" level={3} />
+        <Heading text="Beyond the Code" level={2} />
       </div>
 
       <div class="overflow-y-auto">
@@ -120,7 +120,7 @@ const  {
             <span class="before:mr-2 before:block before:h-2 before:w-2 before:rounded-full before:bg-green-400 before:shadow-[0px_0px_0px_4px_rgba(34,_197,_94,_0.4)] before:animate-pulse before:content-['']"></span>
             Open to opportunities
           </span>
-          <Heading text="Available" textGradient="for work" level={3} />
+          <Heading text="Available" textGradient="for work" level={2} />
           <p class="text-sm font-medium dark:text-gray-300 text-blacktext leading-5 max-xl:text-xs">
             Looking for a <strong>junior frontend role</strong> where I can contribute, grow, and build great products.
           </p>
@@ -128,7 +128,7 @@ const  {
 
         <div class="z-10 flex flex-col gap-2">
           <a
-            href=" mailto:contact@rafaelgomez.dev"
+            href="mailto:contact@rafaelgomez.dev"
             class="flex items-center justify-center gap-2 rounded-xl bg-mint-500 dark:bg-mint-600 px-3 py-2 text-xs font-bold text-white transition hover:bg-mint-600 dark:hover:bg-mint-500"
           >
             <Icon name="envelope" class="text-sm" aria-hidden="true" />
@@ -137,6 +137,7 @@ const  {
           <a
             href="https://www.linkedin.com/in/rafael-gomez-uban-49b99b231/"
             target="_blank"
+            rel="noopener noreferrer"
             class="flex items-center justify-center gap-2 rounded-xl border border-mint-300 dark:border-zinc-700 px-3 py-2 text-xs font-bold dark:text-white text-blacktext transition hover:bg-mint-50 dark:hover:bg-zinc-800"
           >
             LinkedIn
@@ -160,7 +161,7 @@ const  {
             name="dashboard"
             aria-hidden="true"
           />
-          <Heading text="Tech" textGradient="Stack" level={3} />
+          <Heading text="Tech" textGradient="Stack" level={2} />
         </div>
         <div class="overflow-y-auto">
           <Tools />
@@ -184,7 +185,7 @@ const  {
             name="code"
             aria-hidden="true"
           />
-          <Heading text="Projects" level={3}/>
+          <Heading text="Projects" level={2}/>
         </div>
         <p
           class="z-2 my-6 text-lg font-semibold leading-6 dark:text-gray-200 text-blacktext max-xl:text-base max-w-[90%] max-md:max-w-[85%]"
@@ -205,10 +206,11 @@ const  {
         <img
           class="relative left-0 z-0 mt-40 w-full object-cover transition-all ease-in-out duration-500 group-hover:rotate-2 group-hover:scale-185 max-xl:mt-28 max-lg:mt-10 max-sm:mt-0 max-md:scale-100 max-sm:scale-125 scale-180 max-md:group-hover:scale-105 before:[background-image:radial-gradient(circle,_rgba(13,188,130)_0,_rgba(1,45,34)_100%)] before:absolute before:left-30 before:-bottom-0 before:h-[80%] before:aspect-square before:rounded-full before:blur-3xl before:opacity-80 before:-z-10 before:transition"
           src={portfolioImage}
-          alt="View of two website interfaces with modern and dark design. The first screen shows the title 'Behind the Code' with a rocket and dark background, explaining the origin of a community software project. The second screen presents a platform for finding speakers, with an attractive design, expert photos, and a prominent search button."
+          alt="Portfolio website screenshot preview"
           loading="lazy"
-          width="480"
-          height="320"
+          decoding="async"
+          width="900"
+          height="506"
         />
       </article>
     </div>

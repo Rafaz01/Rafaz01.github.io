@@ -5,8 +5,10 @@ pubDate: 2024-08-01
 description: "WordPress and Elementor redesign for a bilingual skincare brand. Rebuilt the site to better reflect Clare's brand identity and improve the booking conversion flow."
 languages: ["wordpress", "elementor", "css", "seo"]
 image:
-  url: "/images/projects/bonitafind.png"
+  url: "/images/optimized/projects/bonitafind.webp"
   alt: "BonitaFind Website Screenshot"
+  width: 900
+  height: 430
 ---
 
 **BonitaFind** is a skincare consultation brand founded by Clare, a Colombian-American licensed esthetician based in Tampa, FL. She offers personalized virtual skincare consultations with a multicultural and bilingual approach for English and Spanish-speaking clients.

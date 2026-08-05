@@ -4,10 +4,11 @@ title: '8th Element Podcast'
 pubDate: 2026-02-01
 description: "WordPress website for a geopolitics and Vedic wisdom podcast. Built with Blocksy and Elementor featuring a cosmic aesthetic, YouTube episode integration, and WooCommerce store."
 languages: ["wordpress", "elementor", "css", "seo"]
-url: "/portfolio/projects/cover2.png"
 image:
-  url: "/images/projects/cover2.png"
+  url: "/images/optimized/projects/cover2.webp"
   alt: "8th Element Podcast Website Screenshot"
+  width: 900
+  height: 432
 ---
 
 **8th Element Podcast** is a show hosted by three long-time bhakti yogis who analyze current events and geopolitics through a Vedic wisdom lens. The name references oxygen — the 8th element — as a metaphor for life-giving, truth-seeking information.
