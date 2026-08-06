@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "optimize-images": "node scripts/convert-images.mjs"
+    "images": "node scripts/convert-images.mjs"
   },
   "dependencies": {
     "@astrojs/preact": "^4.0.8",

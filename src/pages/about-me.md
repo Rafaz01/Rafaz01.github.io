@@ -4,7 +4,7 @@ title: "Rafael Gomez | Frontend Developer"
 description: "Front-end Developer based in Florida with real client experience, a passion for clean UI, and a background in people-facing roles."
 author: "Rafael Gomez"
 image:
-  url: "/images/profilepic.jpg"
+  url: "/images/optimized/rafasprofile6.webp"
   alt: "Photo of Rafael Gomez"
 ---
 

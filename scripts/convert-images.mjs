@@ -8,7 +8,7 @@
  * - .svg and .webp files are copied over unchanged.
  * - Originals in public/images are left untouched (kept as a backup).
  *
- * Usage: node scripts/convert-images.mjs   (or: npm run optimize-images)
+ * Usage: node scripts/convert-images.mjs   (or: npm run images)
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
@@ -103,6 +103,18 @@ async function main() {
   await fs.mkdir(OUT_DIR, { recursive: true });
   const files = await walk(SRC_DIR);
 
+  // A .png being converted always wins its output filename. If a .webp with
+  // the same basename sits next to it (e.g. a leftover from a previous
+  // conversion, or an old hand-optimized file the .png is meant to replace),
+  // copying that .webp afterwards would silently overwrite the fresh
+  // conversion. Build the set of output paths the PNG pass will produce so
+  // the copy pass can skip anything that would collide with it.
+  const pngOutputPaths = new Set(
+    files
+      .filter((f) => path.extname(f).toLowerCase() === ".png")
+      .map((f) => path.relative(SRC_DIR, f).replace(/\.png$/i, ".webp")),
+  );
+
   let totalOriginal = 0;
   let totalNew = 0;
 
@@ -114,6 +126,13 @@ async function main() {
     if (ext === ".png") {
       result = await convertPng(filePath, relPath);
     } else if (ext === ".svg" || ext === ".webp") {
+      if (ext === ".webp" && pngOutputPaths.has(relPath)) {
+        console.log(
+          `${relPath}: skipped — a .png with the same name is being converted to this ` +
+            `exact output; delete the stale .webp to silence this`,
+        );
+        continue;
+      }
       result = await copyAsIs(filePath, relPath);
     } else {
       continue;

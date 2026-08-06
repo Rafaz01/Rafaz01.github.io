@@ -44,7 +44,8 @@ const { frontmatter } = Astro.props;
               </div>
               <div class="relative z-20 flex w-full rounded-full bg-mint-900">
                 <div
-                  class="w-full aspect-square rounded-full bg-[url(/images/profilepic.jpg)] bg-center bg-cover"
+                  class="w-full aspect-square rounded-full bg-center bg-cover"
+                  style={`background-image: url(${frontmatter.image.url})`}
                   aria-label="Photo of Rafael Gomez"
                 >
                   <a
