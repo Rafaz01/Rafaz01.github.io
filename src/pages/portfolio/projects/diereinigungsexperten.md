@@ -38,7 +38,7 @@ The client needed a fast, trustworthy website for the Swiss market that clearly 
 
 ## 🧠 What I Learned
 
-This project taught me how to build for a **multilingual European market** — structuring content and `hreflang` tags properly so each language version is indexed correctly. I also built a **before/after comparison slider** from scratch and learned to design around local trust signals (fixed pricing, service area, Impressum) that matter to Swiss customers.
+This project taught me how to build for a **multilingual European market** structuring content and `hreflang` tags properly so each language version is indexed correctly. I also built a **before/after comparison slider** from scratch and learned to design around local trust signals (fixed pricing, service area, Impressum) that matter to Swiss customers.
 
 ## 🌐 Live Site
 
