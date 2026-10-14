@@ -1,7 +1,7 @@
 ---
 layout: /src/layouts/ProjectLayout.astro
 title: 'JG Graphic Creative Studio'
-pubDate: 2026-10-14
+pubDate: 2025-07-01
 description: "Bilingual (English/Spanish) agency website built with Next.js and Tailwind CSS for a branding and web design studio in Gainesville, FL, featuring a portfolio, blog, and project inquiry flow."
 languages: ["nextjs", "react", "tailwind", "seo"]
 image:
