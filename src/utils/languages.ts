@@ -110,6 +110,10 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  nextjs: {
+    name: "Next.js",
+    iconName: "nextjs",
+  },
   react: {
     name: "React",
     iconName: "react",
