@@ -9,7 +9,7 @@ import ListPosts from "../components/blog/ListPosts.astro";
 import NavigationArticles from "../components/layout/NavigationArticles.astro";
 import Share from "../components/ui/Share.astro";
 const { frontmatter } = Astro.props;
-const currentUrl = `https://efeele.dev${Astro.url.pathname}`;
+const currentUrl = new URL(Astro.url.pathname, Astro.site).href;
 const tweetText = encodeURIComponent(
   `"${frontmatter.title}" - by ${frontmatter.author} `,
 );

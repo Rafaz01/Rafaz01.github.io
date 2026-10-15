@@ -39,5 +39,5 @@ Managing **state without a framework** — keeping the UI in sync with an array 
 
 ## 🌐 Demo & Code
 
-👉 [View Live Demo](https://rafaz01.github.io/Finance-Dashboard-1/)  
-🐙 [View on GitHub](https://github.com/Rafaz01/Finance-Dashboard-1)
+👉 [View Live Demo](https://rafaelgomez.dev/Finance-Manager/)  
+🐙 [View on GitHub](https://github.com/Rafaz01/Finance-Manager)
