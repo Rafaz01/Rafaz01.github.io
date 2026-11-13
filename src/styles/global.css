@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "@fontsource-variable/montserrat/wght.css";
+@import "@fontsource-variable/montserrat/wght-italic.css";
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-	--font-montserrat: "Montserrat", sans-serif;
-	--font-roboto: "Roboto", sans-serif;
-	--font-opensans: "Open Sans", sans-serif;
+	--font-montserrat: "Montserrat Variable", "Montserrat", sans-serif;
 	--color-blacktext: #171717;
 	--color-mint-50: #ecfdf5;
 	--color-mint-100: #d0fbe5;

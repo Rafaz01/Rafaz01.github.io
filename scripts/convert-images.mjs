@@ -4,7 +4,7 @@
  * files under public/images/optimized (mirroring the source folder layout).
  *
  * - Project screenshots: resized to a 900px max width, WebP quality 82.
- * - rafasprofile6.png (hero profile photo): resized to 600x600, WebP quality 85.
+ * - profile-glasses.png (hero profile photo): cropped from the top to 600x600, WebP quality 85.
  * - .svg and .webp files are copied over unchanged.
  * - Originals in public/images are left untouched (kept as a backup).
  *
@@ -20,7 +20,7 @@ const ROOT = path.resolve(__dirname, "..");
 const SRC_DIR = path.join(ROOT, "public", "images");
 const OUT_DIR = path.join(SRC_DIR, "optimized");
 
-const PROFILE_FILENAME = "rafasprofile6.png";
+const PROFILE_FILENAME = "profile-glasses.png";
 const PROFILE_SIZE = 600;
 const PROFILE_QUALITY = 85;
 
@@ -69,7 +69,7 @@ async function convertPng(filePath, relPath) {
 
   let pipeline = sharp(filePath);
   pipeline = isProfile
-    ? pipeline.resize(PROFILE_SIZE, PROFILE_SIZE, { withoutEnlargement: true })
+    ? pipeline.resize(PROFILE_SIZE, PROFILE_SIZE, { position: "top", withoutEnlargement: true })
     : pipeline.resize({ width: SCREENSHOT_MAX_WIDTH, withoutEnlargement: true });
 
   pipeline = pipeline.webp(

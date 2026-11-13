@@ -6,6 +6,8 @@ import Heading from "../components/ui/Heading.astro";
 import NavArticle from "../components/layout/NavArticle.astro";
 import Contact from "../components/portfolio/Contact.astro";
 const { frontmatter } = Astro.props;
+const slug = Astro.url.pathname.split("/").filter(Boolean).pop();
+const ogimage = { url: `/images/og/${slug}.jpg`, alt: frontmatter.image.alt };
 
 ---
 
@@ -13,7 +15,7 @@ const { frontmatter } = Astro.props;
 <Layout
   pageTitle={frontmatter.title}
   description={frontmatter.description}
-  ogimage={frontmatter.image}
+  ogimage={ogimage}
 >
   <section
     class="relative mx-auto px-8 max-sm:px-4 flex flex-row justify-center gap-6"

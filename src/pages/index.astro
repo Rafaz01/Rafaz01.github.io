@@ -6,15 +6,59 @@ import Contact from "../components/portfolio/Contact.astro";
 import ListProjects from "../components/portfolio/ListProjects.astro";
 import { Icon } from "astro-icon/components";
 const pageTitle = "Rafael Gomez | Frontend Developer";
-const description = "I'm Rafael Gomez, a passionate frontend developer focused on design and usability. Here you can explore my projects and discover how I can transform your ideas into quality web solutions.";
+const description = "Rafael Gomez — Frontend Developer in Florida building fast, SEO-optimized websites with WordPress, Shopify, and custom HTML/CSS/JS. Bilingual EN/ES.";
 const ogimage = {
-  url: "/images/optimized/imagedefault.webp",
-  alt: "Screenshot of a web portfolio with a modern and dark design. ",
+  url: "/images/og/default.jpg",
+  alt: "Rafael Gomez — Frontend Developer",
 };
 import Heading from "../components/ui/Heading.astro";
+
+// Structured data so Google understands who the site is about (name, role, links).
+const site = Astro.site!.href;
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": `${site}#person`,
+      name: "Rafael Gomez",
+      url: site,
+      image: new URL("/images/optimized/profile-glasses.webp", site).href,
+      jobTitle: "Frontend Developer",
+      description,
+      email: "mailto:contact@rafaelgomez.dev",
+      worksFor: {
+        "@type": "Organization",
+        name: "JG Graphic LLC",
+        url: "https://jggraphic.com/",
+      },
+      address: {
+        "@type": "PostalAddress",
+        addressRegion: "FL",
+        addressCountry: "US",
+      },
+      knowsLanguage: ["en", "es"],
+      knowsAbout: ["Web Development", "WordPress", "Shopify", "HTML", "CSS", "JavaScript", "SEO"],
+      sameAs: [
+        "https://github.com/Rafaz01",
+        "https://www.linkedin.com/in/rafael-gomez-uban-49b99b231/",
+        "https://www.instagram.com/rgomez_h",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${site}#website`,
+      url: site,
+      name: "Rafael Gomez | Frontend Developer",
+      inLanguage: "en",
+      publisher: { "@id": `${site}#person` },
+    },
+  ],
+};
 ---
 
 <Layout pageTitle={pageTitle} description={description} ogimage={ogimage}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(structuredData)} />
   <HeroIndex />
 
   <section

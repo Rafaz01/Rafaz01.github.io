@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Heading from "../components/ui/Heading.astro";
+import Button from "../components/ui/Button.astro";
+const pageTitle = "Page Not Found | Rafael Gomez";
+const description = "The page you are looking for doesn't exist or has been moved.";
+---
+
+<Layout pageTitle={pageTitle} description={description} noindex>
+  <section class="flex min-h-[70vh] flex-col items-center justify-center gap-6 px-8 py-16 text-center max-sm:px-4">
+    <p
+      class="bg-gradient-to-r from-riptide-500 to-mint-500 bg-clip-text text-8xl font-extrabold text-transparent dark:from-riptide-300 dark:to-mint-200 max-sm:text-7xl"
+    >
+      404
+    </p>
+    <Heading text="Page" textGradient="Not Found" level={1} />
+    <p class="max-w-xl text-lg font-medium leading-7 text-blacktext dark:text-gray-200 max-md:text-base">
+      The page you are looking for doesn't exist or has been moved.
+      Check out my projects or head back to the home page.
+    </p>
+    <div class="flex gap-4 max-sm:flex-col max-sm:items-center">
+      <Button link="/" text="Back to Home" iconName="arrow-left" />
+      <Button link="/#projects" text="View Projects" iconName="code" variant="dark" />
+    </div>
+  </section>
+</Layout>

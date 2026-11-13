@@ -20,7 +20,7 @@ const { frontmatter } = Astro.props;
 <Layout
   pageTitle={frontmatter.title}
   description={frontmatter.description}
-  ogimage={frontmatter.image}
+  ogimage={{ url: "/images/og/about-me.jpg", alt: frontmatter.image.alt }}
 >
   <section
     class="w-full px-8 mt-5 max-sm:px-4 py-4 flex flex-row justify-center gap-6"

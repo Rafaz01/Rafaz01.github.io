@@ -4,24 +4,26 @@ import Header from "../components/layout/Header.astro";
 import Footer from "../components/layout/Footer.astro";
 const {
   pageTitle = "Rafael Gomez | Web Developer",
-  description = "Welcome to Rafael Gomez's website, where I develop software and share knowledge.",
+  noindex = false,
+  description = "Rafael Gomez — Frontend Developer in Florida building fast, SEO-optimized websites with WordPress, Shopify, and custom HTML/CSS/JS. Bilingual EN/ES.",
   ogimage = {
-    url: "/images/optimized/imagedefault.webp",
-    alt: "Default image of Rafael Gomez | Web Developer",
+    url: "/images/og/default.jpg",
+    alt: "Rafael Gomez — Frontend Developer",
   },
 } = Astro.props;
 
-const siteUrl = new URL(Astro.url).origin;
+const siteUrl = Astro.site ?? new URL(Astro.url).origin;
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 const SEO = {
   sitename: "Rafael Gomez | Web Developer",
-  url: siteUrl,
+  url: canonicalUrl,
   locale: "en_US",
   author: "Rafael Gomez",
   
 };
 
 
-const twitterimage = `${siteUrl}${ogimage.url}`;
+const ogImageUrl = new URL(ogimage.url, siteUrl).href;
 ---
 
 <html
@@ -32,7 +34,7 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; base-uri 'self'; form-action 'self'">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; font-src 'self' data:; base-uri 'self'; form-action 'self'">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <!-- Favicon for different platforms -->
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
@@ -46,13 +48,16 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
 
     <meta name="description" content={description} />
     <meta name="author" content={SEO.author} />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://rafaelgomez.dev" />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
+    {!noindex && <link rel="canonical" href={canonicalUrl} />}
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogimage.url} />
+    <meta property="og:image" content={ogImageUrl} />
     <meta property="og:image:alt" content={ogimage.alt} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:url" content={SEO.url} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={SEO.sitename} />
@@ -62,11 +67,17 @@ const twitterimage = `${siteUrl}${ogimage.url}`;
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={twitterimage} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <meta name="twitter:image:alt" content={ogimage.alt} />
   
     <meta name="theme-color" content="#0E0E11"/>
     
+    <slot name="head" />
+
+    <!-- Cloudflare Web Analytics (production only, so local dev visits aren't counted) -->
+    {import.meta.env.PROD && (
+      <script is:inline type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6c7836fee4b840a4b3e1f6e26af75fee"}'></script>
+    )}
   </head>
   <body class="overflow-x-hidden">
     <div class="blur-circle"></div>
